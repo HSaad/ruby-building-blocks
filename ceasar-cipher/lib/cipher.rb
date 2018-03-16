@@ -33,8 +33,8 @@ def ceasar_cipher(string, shiftFactor=0)
 	return newString
 end
 
-puts "What is your text? "
-text = gets.chomp
-puts "How far right would you like to shift your string (shift factor)?"
-shiftFactor = gets.chomp.to_i
-puts ceasar_cipher(text, shiftFactor)
+#puts "What is your text? "
+#text = gets.chomp
+#puts "How far right would you like to shift your string (shift factor)?"
+#shiftFactor = gets.chomp.to_i
+#puts ceasar_cipher(text, shiftFactor)
